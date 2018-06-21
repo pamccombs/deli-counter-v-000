@@ -16,7 +16,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length == nil
-katz_deli.unshift(name)
+katz_deli.unshift('name')
 puts "Welcome #{katz_deli[0]}. You are number #{katz_deli.fecth(index)} in line."
   end
 end
