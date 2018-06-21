@@ -25,3 +25,5 @@ else
 puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(name) + 1} in line."
   end
 end
+
+def now_serving
