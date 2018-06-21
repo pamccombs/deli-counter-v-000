@@ -19,5 +19,6 @@ def take_a_number(katz_deli, name)
   if katz_deli.length == 0
 katz_deli << name
 puts "Welcome #{katz_deli[0]}. You are number #{katz_deli.fecth(index)} in line."
+else
   end
 end
