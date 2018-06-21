@@ -26,4 +26,6 @@ puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(name) + 1} in
   end
 end
 
-def now_serving
+def now_serving(katz_deli)
+  
+end
