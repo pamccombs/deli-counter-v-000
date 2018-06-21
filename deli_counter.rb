@@ -16,10 +16,10 @@ end
 
 def take_a_number(katz_deli, name)
   
-  #if katz_deli.length == 0
+  if katz_deli.length == 0
 katz_deli << name
 "Welcome, #{katz_deli[0]}. You are number #{katz_deli.index(name) + 1} in line."
-#else
+else
 
-  #end
+  end
 end
