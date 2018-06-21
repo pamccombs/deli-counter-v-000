@@ -22,6 +22,6 @@ puts "Welcome, #{katz_deli[0]}. You are number #{katz_deli.index(name) + 1} in l
 else
   katz_deli.length > 0 
   katz_deli << name
-puts "Welcome, #{katz_deli[0]}. You are number #{katz_deli.index(name) + 1} in line."
+puts "Welcome, #{katz_deli.last}. You are number #{katz_deli.index(name)} in line."
   end
 end
